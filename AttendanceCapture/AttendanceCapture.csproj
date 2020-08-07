@@ -1,0 +1,98 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\AttendanceCapture - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\images\banner1.svg" />
+    <None Include="wwwroot\images\banner2.svg" />
+    <None Include="wwwroot\images\banner3.svg" />
+    <None Include="wwwroot\images\banner4.svg" />
+    <None Include="wwwroot\js\custom.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap-toggle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap-toggle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\npm.js" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Black-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-BlackItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Bold-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-BoldItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Italic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Light-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-LightItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Medium-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-MediumItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Regular-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Thin-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-Thin.woff2" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\Roboto-ThinItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\RobotoCondensed-Bold-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\RobotoCondensed-BoldItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\RobotoCondensed-Italic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\RobotoCondensed-Light-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\RobotoCondensed-LightItalic-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\fonts\roboto\RobotoCondensed-Regular-webfont.svg" />
+    <None Include="wwwroot\lib\materialize\js\bootstrap-datetimepicker.js" />
+    <None Include="wwwroot\lib\materialize\js\dataTables.bootstrap.js" />
+    <None Include="wwwroot\lib\materialize\js\dataTables.responsive.js" />
+    <None Include="wwwroot\lib\materialize\js\dataTables.select.js" />
+    <None Include="wwwroot\lib\materialize\js\jquery.dataTables.js" />
+    <None Include="wwwroot\lib\materialize\js\moment-with-locales.js" />
+    <None Include="wwwroot\lib\materialize\js\propeller.js" />
+    <None Include="wwwroot\lib\materialize\js\propeller.min.js" />
+    <None Include="wwwroot\lib\materialize\js\textfield.js" />
+    <None Include="wwwroot\lib\materialize\LICENSE" />
+    <None Include="wwwroot\lib\materialize\README.md" />
+  </ItemGroup>
+
+</Project>
